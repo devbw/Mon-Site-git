@@ -5,6 +5,7 @@ body{
 	box-sizing: border-box;
 	height:2000px;
 }
+/*/////////////////////////////MENU//////////////////////////////*/
 .menu{
 	height:85px;
 	width:85px;
@@ -71,6 +72,9 @@ body{
 	left: 0;
 	right: 0;
 }
+/*/////////////////////////////FIN MENU///////////////////////////////*/
+
+/*/////////////////////////////HEADER/////////////////////////////////*/
 .bkn-head{
 	width:100%;
 	height:800px;
@@ -107,3 +111,17 @@ h1{
 	text-align: center;
 	height: 100px;
 }
+.text-focus-in {
+	animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+/*/////////////////////////////////////FIN HEADER///////////////////////////////*/
